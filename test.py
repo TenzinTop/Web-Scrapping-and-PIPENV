@@ -2,7 +2,7 @@ from selenium import webdriver
 from datetime import time, datetime
 
 #open up a browser and navigate to web page
-driver = webdriver.Firefox(executable_path="C:\\Users\\Tenzin topgyal\\Desktop\\pipenv and web scraping\\geckodriver\\geckodriver.exe")
+driver = webdriver.Firefox(executable_path="C:\\Users\\Tenzin topgyal\\Desktop\\pipenv and web scraping\\geckodriver\\Web-Scrapping-and-PIPENV\\geckodriver.exe")
 driver.get("http://econpy.pythonanywhere.com/ex/001.html")
 
 #extract list of buyers and prices as per on the web 
